@@ -1,5 +1,3 @@
-import Crypto.Util.number as number
-from Crypto.Cipher import AES
 from time import process_time
 from shared.util import *
 from shared.constant import *

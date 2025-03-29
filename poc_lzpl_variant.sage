@@ -1,9 +1,7 @@
-from Crypto.Cipher import AES
-from sage.matrix.constructor import Matrix
-import logging
 from time import process_time
 from shared.mega_sim import *
 from shared.util import *
+from shared.constant import *
 
 # Parameters of PoC
 iteration_number = 10

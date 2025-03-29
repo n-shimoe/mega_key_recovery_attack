@@ -1,9 +1,7 @@
-import Crypto.Util.number as number
-from Crypto.Cipher import AES
 from time import process_time
 from shared.util import *
-from shared.constant import *
 from shared.mega_sim import *
+from shared.constant import *
 
 # Parameters of PoC
 iteration_number = 100
